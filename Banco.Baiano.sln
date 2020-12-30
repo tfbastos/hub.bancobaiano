@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banco.Baiano", "Banco.Baiano\Banco.Baiano.csproj", "{EEE80FBA-D2A2-4980-9BCC-53484C17DE3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Common", "1 - Common", "{A282C12E-26F7-4221-9D03-F2881B5C4C07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{6B5D3E46-5B32-4476-BD94-7AE3F8F1106B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Applications", "3 - Applications", "{D9A62B3F-180C-43C6-9562-29289A4C4517}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banco.Baiano.Authentication", "Banco.Baiano.Authetication\Banco.Baiano.Authentication.csproj", "{340F9CF5-042D-47A1-B3A2-C1A1C6224C8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banco.Baiano.Model", "Banco.Baino.Model\Banco.Baiano.Model.csproj", "{B441F067-1ED8-40F5-B4CC-C5A8355D45D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banco.Baiano.JwtServices", "JwtServices\Banco.Baiano.JwtServices.csproj", "{BDF3500F-18D9-4298-8A02-4582F817FBBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banco.Baiano.Utils", "Banco.Baiano.Utils\Banco.Baiano.Utils.csproj", "{E8966115-AB4C-4F9E-A5A9-5E6ED0F00259}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banco.Baiano.Interface", "Banco.Baino.Interface\Banco.Baiano.Interface.csproj", "{5F5307AC-3C40-4DAE-885C-8C14F92C6D69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banco.Baiano.SwaggerServices", "Banco.Baiano.SwaggerAuthentication\Banco.Baiano.SwaggerServices.csproj", "{F288C54B-DEEF-4B32-A619-1282EC8E3F95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Data", "4 - Data", "{1B857633-2348-48CB-9278-D3B45B985EF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banco.Baiano.Context", "Banco.Baiano.Context\Banco.Baiano.Context.csproj", "{FD82CFFE-75F2-491B-B80F-B4081DC11681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banco.Baiano.Repository", "Banco.Baiano.Repository\Banco.Baiano.Repository.csproj", "{516635AD-0317-49A6-911B-7D9DFA3E3A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banco.Baiano.EntityServices", "Banco.Baiano.EntityServices\Banco.Baiano.EntityServices.csproj", "{F37C97CC-E901-4CF9-921A-7C34A7C385CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEE80FBA-D2A2-4980-9BCC-53484C17DE3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE80FBA-D2A2-4980-9BCC-53484C17DE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE80FBA-D2A2-4980-9BCC-53484C17DE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE80FBA-D2A2-4980-9BCC-53484C17DE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{340F9CF5-042D-47A1-B3A2-C1A1C6224C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340F9CF5-042D-47A1-B3A2-C1A1C6224C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340F9CF5-042D-47A1-B3A2-C1A1C6224C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340F9CF5-042D-47A1-B3A2-C1A1C6224C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B441F067-1ED8-40F5-B4CC-C5A8355D45D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B441F067-1ED8-40F5-B4CC-C5A8355D45D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B441F067-1ED8-40F5-B4CC-C5A8355D45D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B441F067-1ED8-40F5-B4CC-C5A8355D45D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF3500F-18D9-4298-8A02-4582F817FBBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF3500F-18D9-4298-8A02-4582F817FBBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF3500F-18D9-4298-8A02-4582F817FBBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF3500F-18D9-4298-8A02-4582F817FBBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8966115-AB4C-4F9E-A5A9-5E6ED0F00259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8966115-AB4C-4F9E-A5A9-5E6ED0F00259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8966115-AB4C-4F9E-A5A9-5E6ED0F00259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8966115-AB4C-4F9E-A5A9-5E6ED0F00259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F5307AC-3C40-4DAE-885C-8C14F92C6D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5307AC-3C40-4DAE-885C-8C14F92C6D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5307AC-3C40-4DAE-885C-8C14F92C6D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5307AC-3C40-4DAE-885C-8C14F92C6D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F288C54B-DEEF-4B32-A619-1282EC8E3F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F288C54B-DEEF-4B32-A619-1282EC8E3F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F288C54B-DEEF-4B32-A619-1282EC8E3F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F288C54B-DEEF-4B32-A619-1282EC8E3F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD82CFFE-75F2-491B-B80F-B4081DC11681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD82CFFE-75F2-491B-B80F-B4081DC11681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD82CFFE-75F2-491B-B80F-B4081DC11681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD82CFFE-75F2-491B-B80F-B4081DC11681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{516635AD-0317-49A6-911B-7D9DFA3E3A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516635AD-0317-49A6-911B-7D9DFA3E3A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516635AD-0317-49A6-911B-7D9DFA3E3A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516635AD-0317-49A6-911B-7D9DFA3E3A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F37C97CC-E901-4CF9-921A-7C34A7C385CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37C97CC-E901-4CF9-921A-7C34A7C385CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37C97CC-E901-4CF9-921A-7C34A7C385CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37C97CC-E901-4CF9-921A-7C34A7C385CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EEE80FBA-D2A2-4980-9BCC-53484C17DE3E} = {D9A62B3F-180C-43C6-9562-29289A4C4517}
+		{340F9CF5-042D-47A1-B3A2-C1A1C6224C8A} = {D9A62B3F-180C-43C6-9562-29289A4C4517}
+		{B441F067-1ED8-40F5-B4CC-C5A8355D45D7} = {A282C12E-26F7-4221-9D03-F2881B5C4C07}
+		{BDF3500F-18D9-4298-8A02-4582F817FBBB} = {6B5D3E46-5B32-4476-BD94-7AE3F8F1106B}
+		{E8966115-AB4C-4F9E-A5A9-5E6ED0F00259} = {A282C12E-26F7-4221-9D03-F2881B5C4C07}
+		{5F5307AC-3C40-4DAE-885C-8C14F92C6D69} = {A282C12E-26F7-4221-9D03-F2881B5C4C07}
+		{F288C54B-DEEF-4B32-A619-1282EC8E3F95} = {6B5D3E46-5B32-4476-BD94-7AE3F8F1106B}
+		{FD82CFFE-75F2-491B-B80F-B4081DC11681} = {1B857633-2348-48CB-9278-D3B45B985EF2}
+		{516635AD-0317-49A6-911B-7D9DFA3E3A08} = {1B857633-2348-48CB-9278-D3B45B985EF2}
+		{F37C97CC-E901-4CF9-921A-7C34A7C385CA} = {6B5D3E46-5B32-4476-BD94-7AE3F8F1106B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {470F3BF8-E1F9-47B5-8AFF-BEEC3549260C}
+	EndGlobalSection
+EndGlobal

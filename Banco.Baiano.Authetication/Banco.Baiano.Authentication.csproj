@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyVersion>1.0.56.12</AssemblyVersion>
+    <FileVersion>1.0.56.1112</FileVersion>
+    <OutputType>Exe</OutputType>
+    <UserSecretsId>24cfc26e-f122-4ba6-af84-0b7803c579be</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Banco.Baino.Model\Banco.Baiano.Model.csproj" />
+    <ProjectReference Include="..\JwtServices\Banco.Baiano.JwtServices.csproj" />
+  </ItemGroup>
+
+</Project>

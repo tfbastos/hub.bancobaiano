@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyVersion>1.0.71.12</AssemblyVersion>
+    <FileVersion>1.0.71.1112</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Banco.Baiano.Context\Banco.Baiano.Context.csproj" />
+    <ProjectReference Include="..\Banco.Baino.Model\Banco.Baiano.Model.csproj" />
+  </ItemGroup>
+
+</Project>
